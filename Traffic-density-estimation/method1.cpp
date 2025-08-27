@@ -69,7 +69,7 @@ int main(int argc, char *argv[])
     // pts_des and pts_src for homography //
 
     pts_des.clear();
-    pts_des.push_back(Point(472, 52));
+    pts_des.push_back(Point(472, 52));//added the points
     pts_des.push_back(Point(472, 830));
     pts_des.push_back(Point(800, 830));
     pts_des.push_back(Point(800, 52));
